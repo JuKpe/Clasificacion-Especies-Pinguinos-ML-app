@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.write("# Welcome to Streamlit! 👋")
 
-st.markdown("# hola juan")
+st.markdown("# hi juan")
 st.sidebar.header("hola carlos")
 
 st.sidebar.success("Select a demo above.")
