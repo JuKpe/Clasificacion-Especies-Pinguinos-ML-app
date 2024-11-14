@@ -6,7 +6,8 @@
     "codespaces": {
       "openFiles": [
         "README.md",
-        "streamlit_app.py"
+        "streamlit_app.py",
+        "1_📈_Plotting_Demo.py"
       ]
     },
     "vscode": {
