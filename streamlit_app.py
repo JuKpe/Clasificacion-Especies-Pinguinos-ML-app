@@ -11,7 +11,7 @@ st.set_page_config(
 
 st.write("# Welcome to Streamlit! 👋")
 
-st.markdown("# hillo juan")
+st.markdown("# hello juan")
 st.sidebar.header("hola carlos")
 
 
