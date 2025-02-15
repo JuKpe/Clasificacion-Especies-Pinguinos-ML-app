@@ -30,6 +30,8 @@ Usando un conjunto de datos real sobre pingüinos, esta aplicación te permitir�
 💡 **Explora, ajusta los parámetros y descubre cuál modelo clasifica mejor a nuestros amigos emplumados!** 🐧✨
 """)
 
+st.header("Autor: Perez Lopez Juan Carlos")
+
 st.markdown(
     """
     ### Nota:
