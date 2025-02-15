@@ -6,7 +6,7 @@ from urllib.error import URLError
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
-st.set_page_config(page_title="Support Vector Classifier", page_icon="🌍")
+st.set_page_config(page_title="Support Vector Classifier", page_icon="📈")
 
 st.title("Support Vector Classifier")
 st.markdown("""

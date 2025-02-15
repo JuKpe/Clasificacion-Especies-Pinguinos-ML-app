@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
-st.set_page_config(page_title="Random forest classifier", page_icon="📈")
+st.set_page_config(page_title="Random forest classifier", page_icon="🌲")
 
 st.title("Random forest classifier")
 st.markdown("""
