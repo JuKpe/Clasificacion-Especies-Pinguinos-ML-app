@@ -6,10 +6,13 @@ from sklearn.ensemble import RandomForestClassifier
 
 st.set_page_config(page_title="Random forest classifier", page_icon="📈")
 
-st.markdown("# Random forest classifier")
-st.write(
-    """En este apartado se muestra el uso del modelo Random forest de clasificación"""
-)
+st.title("Random forest classifier")
+st.markdown("""
+Random Forest es un modelo basado en árboles de decisión que crea múltiples árboles y combina sus resultados para mejorar la precisión y reducir el sobreajuste.  
+Es ideal para datos con ruido y características correlacionadas.  
+✅ **Ventajas:** Robusto, maneja datos faltantes y es fácil de interpretar.  
+⚠️ **Desventaja:** Puede ser computacionalmente costoso con muchos árboles.  
+""")
 
 st.sidebar.header("Hola")
 st.sidebar.success("Seleccione un modelo.")

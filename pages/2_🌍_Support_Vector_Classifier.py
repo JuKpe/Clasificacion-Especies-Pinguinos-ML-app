@@ -8,12 +8,14 @@ from sklearn.ensemble import RandomForestClassifier
 
 st.set_page_config(page_title="Support Vector Classifier", page_icon="🌍")
 
-st.markdown("# Support Vector Classifier")
+st.title("Support Vector Classifier")
+st.markdown("""
+SVC es un modelo basado en encontrar el hiperplano óptimo que separa las clases en el espacio de características.  
+Funciona bien en conjuntos de datos con clases bien separadas.  
+✅ **Ventajas:** Eficiente en espacios de alta dimensión y con distintos núcleos para adaptación.  
+⚠️ **Desventaja:** Puede ser sensible al ajuste de hiperparámetros y a datos ruidosos.  
+""")
 
-st.write(
-    """This demo shows how to use
-[`st.pydeck_chart`](https://docs.streamlit.io/develop/api-reference/charts/st.pydeck_chart)
-to display geospatial data."""
-)
 
-st.sidebar.header("Support Vector Classifier")
+st.sidebar.header("Hola")
+st.sidebar.success("Seleccione un modelo.")

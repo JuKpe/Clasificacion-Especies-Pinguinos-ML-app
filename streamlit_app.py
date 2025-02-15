@@ -9,9 +9,7 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.write("# Clasificación de Pingüinos 🐧 con Modelos de Machine Learning")
-
-st.title("🐧 Clasificación de Pingüinos con Machine Learning")
+st.title(" Clasificación de Pingüinos 🐧 con Machine Learning")
 
 #st.markdown("# hello juan")
 st.sidebar.header("hola")
