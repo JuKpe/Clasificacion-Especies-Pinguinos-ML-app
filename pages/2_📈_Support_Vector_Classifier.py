@@ -96,49 +96,11 @@ with st.expander('Data preparation'):
 
 # Model training and inference
 ## Train the ML model
-#clf = RandomForestClassifier()
-clf = SVC(probability=True)
+clf = SVC()
 clf.fit(X, y)
 
 ## Apply model to make predictions
 prediction = clf.predict(input_row)
-prediction_proba = clf.predict_proba(input_row) # Predict class probabilities for X
-
-df_prediction_proba = pd.DataFrame(prediction_proba)
-df_prediction_proba.columns = ['Adelie', 'Chinstrap', 'Gentoo']
-df_prediction_proba.rename(columns={0: 'Adelie',
-                                 1: 'Chinstrap',
-                                 2: 'Gentoo'})
-prediction
-df_prediction_proba
-
-# Display predicted species
-st.subheader('Predicted Species')
-st.dataframe(df_prediction_proba,
-             column_config={
-               'Adelie': st.column_config.ProgressColumn(
-                 'Adelie',
-                 format='%f',
-                 width='medium',
-                 min_value=0,
-                 max_value=1
-               ),
-               'Chinstrap': st.column_config.ProgressColumn(
-                 'Chinstrap',
-                 format='%f',
-                 width='medium',
-                 min_value=0,
-                 max_value=1
-               ),
-               'Gentoo': st.column_config.ProgressColumn(
-                 'Gentoo',
-                 format='%f',
-                 width='medium',
-                 min_value=0,
-                 max_value=1
-               ),
-             }, hide_index=True)
-
 
 penguins_species = np.array(['Adelie', 'Chinstrap', 'Gentoo'])
 st.success(str(penguins_species[prediction][0])) # esto indica la posición de una matriz [fila][columna]
