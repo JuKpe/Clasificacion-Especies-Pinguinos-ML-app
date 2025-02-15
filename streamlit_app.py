@@ -20,7 +20,7 @@ st.write(
 st.sidebar.header("hola")
 
 
-st.sidebar.success("Select a demo above.")
+st.sidebar.success("Seleccione un modelo.")
 
 st.markdown("""
 Bienvenido a esta aplicación interactiva de clasificación de pingüinos.  
@@ -38,6 +38,7 @@ Usando un conjunto de datos real sobre pingüinos, esta aplicación te permitir�
 
 st.markdown(
     """
+    ### Nota:
     Streamlit is an open-source app framework built specifically for
     Machine Learning and Data Science projects.
     **👈 Select a demo from the sidebar** to see some examples
