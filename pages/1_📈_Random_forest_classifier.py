@@ -1,6 +1,8 @@
 import streamlit as st
-import time
+
 import numpy as np
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
 
 st.set_page_config(page_title="Random forest classifier", page_icon="📈")
 
@@ -10,7 +12,6 @@ st.write(
     """En este apartado se muestra el uso del modelo Random forest de clasificación"""
 )
 
-st.sidebar.header("Hola")
 st.sidebar.success("Seleccione un modelo.")
 
 
