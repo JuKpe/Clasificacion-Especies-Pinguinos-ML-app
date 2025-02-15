@@ -10,15 +10,11 @@ st.set_page_config(
 )
 
 st.write("# Clasificación de Pingüinos 🐧 con Modelos de Machine Learning")
-st.write(
-    """Bienvenido a esta aplicación interactiva de clasificación de pingüinos. Aquí exploraremos 
-    cómo tres poderosos modelos de aprendizaje automático pueden predecir la especie de un pingüino 
-    en función de sus características físicas."""
-)
+
+st.title("🐧 Clasificación de Pingüinos con Machine Learning")
 
 #st.markdown("# hello juan")
 st.sidebar.header("hola")
-
 
 st.sidebar.success("Seleccione un modelo.")
 
