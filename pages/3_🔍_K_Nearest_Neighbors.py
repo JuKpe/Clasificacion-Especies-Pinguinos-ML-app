@@ -12,7 +12,6 @@ Cuanto menor sea la distancia entre puntos, mayor será la probabilidad de que p
 ⚠️ **Desventaja:** Puede ser lento en grandes conjuntos de datos y sensible a valores atípicos.  
 """)
 
-
 # check which datasets can be imported
 list_available_datasets()
 
