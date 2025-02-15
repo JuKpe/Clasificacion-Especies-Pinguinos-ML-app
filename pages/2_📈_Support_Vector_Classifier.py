@@ -97,7 +97,7 @@ with st.expander('Data preparation'):
 # Model training and inference
 ## Train the ML model
 #clf = RandomForestClassifier()
-clf = SVC()
+clf = SVC(probability=True)
 clf.fit(X, y)
 
 ## Apply model to make predictions
