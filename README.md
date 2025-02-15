@@ -1,10 +1,15 @@
-# 🎈 Blank app template
+# 🎈 Clasificación de pingüinos según la especie
 
-A simple Streamlit app template for you to modify!
+## Modelos:
+1. Random forest classifier
+2. Support Vector Classifier
+3. k nearest neighbor
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-gx9ai9mvsnt.streamlit.app/)
+¡Puedes ver la app en el siguiente enlace!
 
-### How to run it on your own machine
+[![Open app](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-gx9ai9mvsnt.streamlit.app/)
+
+### ¿Cómo ejecutarlo en su propia máquina?
 
 1. Install the requirements
 
