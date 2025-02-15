@@ -5,6 +5,7 @@ from urllib.error import URLError
 
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
 
 
 st.set_page_config(page_title="Support Vector Classifier", page_icon="📈")
@@ -95,7 +96,8 @@ with st.expander('Data preparation'):
 
 # Model training and inference
 ## Train the ML model
-clf = RandomForestClassifier()
+#clf = RandomForestClassifier()
+clf = SVC()
 clf.fit(X, y)
 
 ## Apply model to make predictions
