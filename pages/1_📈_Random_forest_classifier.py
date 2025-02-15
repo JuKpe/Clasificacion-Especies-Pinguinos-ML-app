@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.set_page_config(page_title="Random forest classifier", page_icon="📈")
 
 st.markdown("# Random forest classifier")
-st.sidebar.header("Random forest classifier")
+st.sidebar.header("Random forest classifier hola")
 st.write(
     """En este apartado se muestra el uso del modelo Random forest de clasificación"""
 )
