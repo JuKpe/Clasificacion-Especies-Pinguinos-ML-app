@@ -2,8 +2,8 @@
 
 ## Modelos:
 1. Random forest classifier
-2. Support Vector Classifier
-3. k nearest neighbor
+2. Support Vector Classifier (SVC) 
+3. k nearest neighbor (KNN)
 
 ¡Puedes ver la app en el siguiente enlace!
 
